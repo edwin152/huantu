@@ -178,19 +178,19 @@ var d = {
     ],
     life_format: [
         {
-            img_url: "/img/_5_jingniang",
+            img_url: "img/_5_jingniang.jpg",
             text: ""
         },
         {
-            img_url: "/img/_5_jianshen",
+            img_url: "img/_5_jianshen.jpg",
             text: ""
         },
         {
-            img_url: "/img/_5_kafei",
+            img_url: "img/_5_kafei.jpg",
             text: ""
         },
         {
-            img_url: "/img/_5_huayuan",
+            img_url: "img/_5_huayuan.jpg",
             text: ""
         }
     ]
