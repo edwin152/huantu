@@ -1,25 +1,23 @@
 window.onload = function() {
 	initData(a);
 
-	// 滚动监听
-	$(window).scroll(function() {
-		var scroll = $(window).scrollTop();
-		if(scroll < 40) {
-			$('#float_title_box').removeClass('headerPosition');
-			$('#float_title_box2').hide();
-		} else {
-			$('#float_title_box').addClass('headerPosition');
-			$('#float_title_box2').show();
-		}
-	});
-	new Swiper('#swiper_top', {
-		loop: false, //循环 最后面一个往后面滑动会滑到第一个
-		autoplay: 4000,
-		//指示器
-		pagination: '#swiper_top_position',
-		paginationClickable: true,
-		autoplayDisableOnInteraction: false
-	});
+	if (a.topImage.length > 1){
+        new Swiper('#swiper_top', {
+            loop: false, //循环 最后面一个往后面滑动会滑到第一个
+            autoplay: 4000,
+            //指示器
+            pagination: '#swiper_top_position',
+            paginationClickable: true,
+            autoplayDisableOnInteraction: false
+        });
+    }else{
+        new Swiper('#swiper_top', {
+            loop: false, //循环 最后面一个往后面滑动会滑到第一个
+            autoplay: 4000,
+            //指示器
+            autoplayDisableOnInteraction: false
+        });
+    }
 
 	var mySwiper = new Swiper('#swiper01', {
 		loop: false, //循环 最后面一个往后面滑动会滑到第一个
