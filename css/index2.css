@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_tiling {
+    width: 100%;
+}
+
+.box_center {
+    width: 900px;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.title span {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.project_intro {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.project_intro img {
+    width: 300px;
+    height: 450px;
+}
+
+.project_intro span {
+    flex: 1;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.net {
+    margin-top: 50px;
+}
+
+.net_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.net_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.net_item img {
+    width: 430px;
+    height: 285px;
+}
+
+.net_row span {
+    font-size: 15px;
+}
+
+.hot_rental {
+    margin-top: 50px;
+}
+
+.hot_rental_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.hot_rental_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.hot_rental_item img {
+    width: 250px;
+    height: 166px;
+}
+
+.hot_rental_item span {
+    font-size: 15px;
+}

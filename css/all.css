@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', '黑体', 'Arial', 'sans-serif';
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:active {
+	color: ;
+}
+
+input{
+	border: 0px;
+	background: none;
+	outline:none;
+}
