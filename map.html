@@ -59,17 +59,19 @@
 					var label = new BMap.Label(markers[index].title, {
 						offset: new BMap.Size(25, 5)
 					});
-					let backGround = "#FFFFFF";
+                    var backGround = "#FFFFFF";
+                    var textColor = "#333333";
 					if(markers[index].isSelect) {
-						backGround = "#FF3399";
+						backGround = "#FFBB99";
+                        textColor = "#111111"
 					}
 					label.setStyle({
 						backgroundColor: backGround,
-						border: "1px solid #333333",
-						borderRadius: "10px",
-						color: "#333333",
+						border: "1px solid #696969",
+						borderRadius: "4px",
+						color: textColor,
 						padding : "5px"
-					})
+					});
 					var opts = {
 						width: 200,
 						title: markers[index].title,
